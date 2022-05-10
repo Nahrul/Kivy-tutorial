@@ -1,0 +1,31 @@
+AnchorLayoutExample:
+
+<BoxLayoutExample>:
+    orientation: "horizontal"
+    Button:
+        text: "A"
+        size_hint: .5, .5
+        
+        pos_hint: {"top": .5}
+    BoxLayout:
+        orientation: "vertical"
+        Button:
+            text: "B1"
+        Button:
+            text: "B2"
+        Button:
+            text: "B3"
+        Button:
+            text: "B4"
+    Label:
+        text: "c"
+
+<MainWidget>:
+    Button:
+        text: "Hello World"
+        size: "400dp", "200dp"
+        pos: "100dp", "200dp"
+    Label:
+        text: "Hello World 2"
+        size: "400dp", "200dp"
+        pos: "200dp", "300dp"
